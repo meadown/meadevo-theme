@@ -1,0 +1,36 @@
+{
+  "name": "meadevo-theme",
+  "displayName": "Meadevo Theme",
+  "description": "A carefully crafted dark theme with Solarized colors and minimal UI - designed for focus and reduced eye strain",
+  "version": "1.0.0",
+  "publisher": "dewan mobashirul (meadown)",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "solarized",
+    "minimal",
+    "eye-friendly",
+    "low stress",
+    "developer"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Meadevo Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/meadevo-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meadown/meadevo-theme"
+  },
+  "license": "MIT"
+}
