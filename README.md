@@ -40,18 +40,27 @@ A carefully crafted dark theme for Visual Studio Code, combining Solarized Dark 
 2. Reload VS Code
 3. Press `Ctrl+K Ctrl+T` and select "Meadevo Dark"
 
-## Recommended Settings
+## ⚠️ Highly Recommended Settings
 
-For the complete Meadevo experience, copy the settings from [`recommended-settings.json`](./recommended-settings.json) to your VS Code `settings.json`:
+**For the best experience**, Meadevo Theme is designed to work with specific editor settings. While the theme will work without them, these settings are **highly recommended** for the optimal visual experience:
 
-**Note:** VS Code themes only control colors. These additional settings are optional but recommended:
-- **Icon theme:** Material Icon Theme (install separately)
-- **Font:** SF Mono (or Monaco/Menlo)
-- **Scrollbar:** Minimal 1px width
-- **Font size:** 13px
-- **Line height:** 1.5
+### Quick Setup
+Copy all settings from [`recommended-settings.json`](./recommended-settings.json) to your VS Code `settings.json` (File → Preferences → Settings → Open Settings JSON).
 
-See `recommended-settings.json` for the complete configuration.
+### What These Settings Do
+- **Icon theme:** Material Icon Theme with classic folders (#999999) - matches the minimal aesthetic
+- **Font:** SF Mono (or Monaco/Menlo) - clean, readable monospace font
+- **Scrollbar:** Minimal 1px width - reduces visual clutter
+- **Font size:** 13px - optimal for readability
+- **Line height:** 1.5 - comfortable spacing
+
+**Important:** VS Code themes can only control colors. These editor preferences must be set manually but significantly enhance the Meadevo experience.
+
+### Install Material Icon Theme
+```bash
+# Press Ctrl+P in VS Code and paste:
+ext install PKief.material-icon-theme
+```
 
 ## Screenshots
 
@@ -59,7 +68,7 @@ See `recommended-settings.json` for the complete configuration.
 
 ## Contributing
 
-Found a bug or have a suggestion? Please open an issue on [GitHub](https://github.com/yourusername/meadevo-theme).
+Found a bug or have a suggestion? Please open an issue on [GitHub](https://github.com/meadown/meadevo-theme).
 
 ## License
 
