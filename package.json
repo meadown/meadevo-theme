@@ -3,7 +3,7 @@
   "displayName": "Meadevo Theme",
   "description": "A carefully crafted dark theme with Solarized colors and minimal UI - designed for focus and reduced eye strain",
   "version": "1.0.0",
-  "publisher": "dewan mobashirul (meadown)",
+  "publisher": "Dewan-meadown",
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -34,3 +34,4 @@
   },
   "license": "MIT"
 }
+
