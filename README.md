@@ -42,21 +42,16 @@ A carefully crafted dark theme for Visual Studio Code, combining Solarized Dark 
 
 ## Recommended Settings
 
-For the best experience, add these to your `settings.json`:
+For the complete Meadevo experience, copy the settings from [`recommended-settings.json`](./recommended-settings.json) to your VS Code `settings.json`:
 
-```json
-{
-  "editor.fontFamily": "'SF Mono', 'Monaco', 'Menlo', monospace",
-  "editor.fontSize": 13,
-  "editor.lineHeight": 1.5,
-  "editor.scrollbar.verticalScrollbarSize": 1,
-  "editor.scrollbar.horizontalScrollbarSize": 1,
-  "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.folders.theme": "classic",
-  "material-icon-theme.folders.color": "#999999",
-  "material-icon-theme.opacity": 1
-}
-```
+**Note:** VS Code themes only control colors. These additional settings are optional but recommended:
+- **Icon theme:** Material Icon Theme (install separately)
+- **Font:** SF Mono (or Monaco/Menlo)
+- **Scrollbar:** Minimal 1px width
+- **Font size:** 13px
+- **Line height:** 1.5
+
+See `recommended-settings.json` for the complete configuration.
 
 ## Screenshots
 

@@ -1,0 +1,18 @@
+{
+  "// Copy these settings to your settings.json for the complete Meadevo experience": "",
+
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.theme": "classic",
+  "material-icon-theme.folders.color": "#999999",
+  "material-icon-theme.opacity": 1,
+
+  "editor.fontFamily": "'SF Mono', 'Monaco', 'Menlo', monospace",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": false,
+  "editor.lineHeight": 1.5,
+
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "auto",
+  "editor.scrollbar.verticalScrollbarSize": 1,
+  "editor.scrollbar.horizontalScrollbarSize": 1
+}
