@@ -25,6 +25,11 @@
         "label": "Meadevo Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/meadevo-color-theme.json"
+      },
+      {
+        "label": "Meadevo Vibrant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/meadevo-vibrant-theme.json"
       }
     ]
   },
